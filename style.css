@@ -43,14 +43,14 @@ body {
 }
 
 .player-img {
-  width: 152px;
-  height: 152px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: 50% 20%;
+  background-color: #1f4e47;
   border: 3px solid #e9b35f;
   box-shadow: 0 8px 18px rgba(0,0,0,0.2);
-  background: #e8d5b5;
-  transition: transform 0.2s;
 }
 
 .player-img:hover {
